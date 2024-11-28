@@ -16,10 +16,13 @@ INVALIDO: se o e-mail digitado for não válido
 
 function solucao(email: string): string {
   // seu código aqui
-  const temArroba: boolean = email.includes('@')
+  const temArroba:boolean = email.includes('@')
+  
   if(temArroba){
     return 'VALIDO'
   }
   return 'INVALIDO'
+
 }
+
 export default solucao;
